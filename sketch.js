@@ -33,11 +33,11 @@ function setup() {
 function draw() {
   background(bg);
 
-  if(keyDown(LEFT_ARROW)){
+  if(keyDown(RIGHT_ARROW)){
     updateHeight(-10,0);
     balloon.addAnimation("hotAirBalloon",balloonImage2);
   }
-  else if(keyDown(RIGHT_ARROW)){
+  else if(keyDown(LEFT_ARROW)){
     updateHeight(+10,0);
     balloon.addAnimation("hotAirBalloon",balloonImage2);
   }
